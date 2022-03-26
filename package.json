@@ -1,5 +1,5 @@
 {
-  "name": "pomodoro-timer",
+  "name": "fonsOdoro",
   "version": "0.2.0",
   "private": true,
   "dependencies": {
@@ -14,7 +14,7 @@
     "build": "react-scripts build",
     "eject": "react-scripts eject",
     "start": "PORT=3008 react-scripts start",
-    "test": "react-scripts test",
+    "test": "react-scripts test"
   },
   "eslintConfig": {
     "extends": "react-app"

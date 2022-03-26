@@ -7,15 +7,12 @@ function BreakTimer({breakDuration,increaseBreak,decreaseBreak,disable}) {
         <div className="col">
           <div className="float-right">
         <div className="input-group input-group-lg mb-2">
-              <span className="input-group-text" data-testid="duration-break">
-                Break Duration: {minutesToDuration(breakDuration)}
-              </span>
 
               {/* Decrease Break Button */}
-              <div className="input-group-append">
+              <div className="input-group">
                 <button
                   type="button"
-                  className="btn btn-secondary"
+                  className="btn btn-light"
                   data-testid="decrease-break"
                   onClick = {decreaseBreak}
                   disabled = {disable}
@@ -23,10 +20,14 @@ function BreakTimer({breakDuration,increaseBreak,decreaseBreak,disable}) {
                   <span className="oi oi-minus" />
                 </button>
 
+                <span className="input-group-text" data-testid="duration-break">
+                Break Duration: {minutesToDuration(breakDuration)}
+                </span>
+
                 {/* Increase Break Button */}
                 <button
                   type="button"
-                  className="btn btn-secondary"
+                  className="btn btn-light"
                   data-testid="increase-break"
                   onClick = {increaseBreak}
                   disabled = {disable}

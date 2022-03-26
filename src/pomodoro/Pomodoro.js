@@ -5,6 +5,7 @@ import BreakTimer from "./BreakTimer"
 import PlayStop from "./PlayStop"
 import SessionTimer from "./SessionTimer"
 
+
 function nextTick(prevState) {
   const timeRemaining = Math.max(0, prevState.timeRemaining - 1);
   return {
@@ -14,7 +15,7 @@ function nextTick(prevState) {
 }
 
 function nextSession(focusDuration, breakDuration) {
- 
+
   return (currentSession) => {
     if (currentSession.label === "Focusing") {
       return {
@@ -32,16 +33,16 @@ function nextSession(focusDuration, breakDuration) {
 function Pomodoro() {
   const [isTimerRunning, setIsTimerRunning] = useState(false);
   const [session, setSession] = useState(null);
-  const [focusDuration, setFocusDuration] = useState(25)
-  const [breakDuration, setBreakDuration] = useState(5)
+  const [focusDuration, setFocusDuration] = useState(5)
+  const [breakDuration, setBreakDuration] = useState(1)
   const [disableBtn, setDisableBtn] = useState(false)
   const [disableStop, setDisableStop] = useState(true)
 
   function stopReset() {
     setIsTimerRunning(false)
     setSession(null)
-    setFocusDuration(25)
-    setBreakDuration(5)
+    setFocusDuration(5)
+    setBreakDuration(1)
     setDisableBtn(false)
     setDisableStop(true)
   }
@@ -104,19 +105,21 @@ function Pomodoro() {
           disable = {disableBtn}
           />
       </div>
-      <div className="row">
-          <PlayStop
-          isTimerRunning = {isTimerRunning}
-          playPause = {playPause}
-          stopReset = {stopReset}
-          disableStop = {disableStop}
-          />  
-      </div>
+
       <SessionTimer
       session = {session}
       focusDuration = {focusDuration}
       breakDuration = {breakDuration}
       isTimerRunning = {isTimerRunning}/>
+
+      <div className="row">
+        <PlayStop
+          isTimerRunning = {isTimerRunning}
+          playPause = {playPause}
+          stopReset = {stopReset}
+          disableStop = {disableStop}
+        />
+      </div>
     </div>
   );
 }

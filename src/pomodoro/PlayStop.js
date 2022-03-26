@@ -1,7 +1,8 @@
 import React from "react"
 import classNames from "../utils/class-names";
 
-
+// this component needs text explaining style color property changes
+d
 function PlayStop ({isTimerRunning, playPause, stopReset, disableStop}) {
     return (
         <div className="col">
