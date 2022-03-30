@@ -98,10 +98,10 @@ describe("Pomodoro Timer", () => {
   });
 
   describe("Focus duration", () => {
-    test("displays 25:00 by default", () => {
+    test("displays 05:00 by default", () => {
       const { getByTestId } = render(<Pomodoro />);
       expect(getByTestId("duration-focus")).toHaveTextContent(
-        "Focus Duration: 25:00"
+        "Focus Duration: 05:00"
       );
     });
     test("increases by 5 minutes when clicking + button", () => {
@@ -112,13 +112,13 @@ describe("Pomodoro Timer", () => {
       userEvent.click(increaseFocus);
 
       expect(getByTestId("duration-focus")).toHaveTextContent(
-        "Focus Duration: 30:00"
+        "Focus Duration: 10:00"
       );
 
       userEvent.click(increaseFocus);
 
       expect(getByTestId("duration-focus")).toHaveTextContent(
-        "Focus Duration: 35:00"
+        "Focus Duration: 15:00"
       );
     });
 

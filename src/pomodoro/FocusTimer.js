@@ -16,7 +16,7 @@ function FocusTimer({focusDuration, increaseFocus,decreaseFocus, disable}) {
                 <span className="oi oi-minus" />
               </button>
               <span className="input-group-text" data-testid="duration-focus">
-              Focus Duration: {minutesToDuration(focusDuration)}
+              Focus: {minutesToDuration(focusDuration)}
               </span>
               <button
                 type="button"

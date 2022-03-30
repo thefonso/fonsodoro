@@ -21,7 +21,7 @@ function BreakTimer({breakDuration,increaseBreak,decreaseBreak,disable}) {
                 </button>
 
                 <span className="input-group-text" data-testid="duration-break">
-                Break Duration: {minutesToDuration(breakDuration)}
+                Break: {minutesToDuration(breakDuration)}
                 </span>
 
                 {/* Increase Break Button */}
