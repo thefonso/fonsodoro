@@ -1,0 +1,30 @@
+Info 0    [21:07:49.636] Starting TS Server
+Info 1    [21:07:49.636] Version: 4.7.4
+Info 2    [21:07:49.636] Arguments: /home/unclefonso/.nvm/versions/node/v16.13.0/bin/node /home/unclefonso/.emacs.d/.local/cache/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/tsserver.js --logFile /home/unclefonso/Projects/youtube_twitch/react-apps/fonso-pomodoro/.log/tsserver.log --logVerbosity info --cancellationPipeName /tmp/598e84ffef98cc734557e6dc81dfd36f/tscancellation*
+Info 3    [21:07:49.636] Platform: linux NodeVersion: 16 CaseSensitive: true
+Info 4    [21:07:49.636] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
+Info 5    [21:07:49.644] Format host information updated
+Info 6    [21:07:49.652] Search path: /home/unclefonso/Projects/youtube_twitch/react-apps/fonso-pomodoro/src/pomodoro
+Info 7    [21:07:49.653] For info: /home/unclefonso/Projects/youtube_twitch/react-apps/fonso-pomodoro/src/pomodoro/Pomodoro.js :: No config files found.
+Info 8    [21:07:49.656] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 9    [21:07:51.039] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 1382.8178399801254ms
+Info 10   [21:07:51.039] Project '/dev/null/inferredProject1*' (Inferred)
+Info 11   [21:07:51.039] 	Files (192)
+
+Info 12   [21:07:51.039] -----------------------------------------------
+Info 13   [21:07:51.049] AutoImportProviderProject: found 5 root files in 5 dependencies in 8.092513024806976 ms
+Info 14   [21:07:51.050] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject1*
+Info 15   [21:07:51.229] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject1* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 178.63471698760986ms
+Info 16   [21:07:51.229] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 17   [21:07:51.229] 	Files (144)
+
+Info 18   [21:07:51.229] -----------------------------------------------
+Info 19   [21:09:02.100] Search path: /home/unclefonso/Projects/youtube_twitch/react-apps/fonso-pomodoro/src/pomodoro
+Info 20   [21:09:02.100] For info: /home/unclefonso/Projects/youtube_twitch/react-apps/fonso-pomodoro/src/pomodoro/FocusTimer.js :: No config files found.
+Info 21   [21:40:20.790] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 22   [21:40:20.857] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 2 structureChanged: false structureIsReused:: Completely Elapsed: 66.57141000032425ms
+Info 23   [21:40:20.857] Different program with same set of files
+Info 24   [21:40:39.937] Search path: /home/unclefonso/Projects/youtube_twitch/react-apps/fonso-pomodoro/src/utils/duration
+Info 25   [21:40:39.937] For info: /home/unclefonso/Projects/youtube_twitch/react-apps/fonso-pomodoro/src/utils/duration/index.js :: No config files found.
+Info 26   [21:41:19.072] Search path: /home/unclefonso/Projects/youtube_twitch/react-apps/fonso-pomodoro/src/pomodoro
+Info 27   [21:41:19.073] For info: /home/unclefonso/Projects/youtube_twitch/react-apps/fonso-pomodoro/src/pomodoro/PlayStop.js :: No config files found.

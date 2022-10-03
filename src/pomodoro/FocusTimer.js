@@ -1,7 +1,7 @@
 import React from "react";
 import {minutesToDuration} from "../utils/duration/index"
 
-function FocusTimer({focusDuration, increaseFocus,decreaseFocus, disable}) {
+function FocusTimer({focusDuration, increaseFocus, decreaseFocus, disable}) {
     return (
         <div className="col">
         <div className="input-group input-group-lg mb-2">
